@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './components/Card';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Card />
-  </React.StrictMode>,
-  document.getElementById('root')
+  
+  	<div>
+    	<Card />
+    	<Card />
+    	<Card />
+  	</div>
+  , document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
